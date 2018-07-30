@@ -1,3 +1,7 @@
+export GOPATH=~/go
+
+source ~/.bash_profile_secrets
+
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Shell prompt based on the Solarized Dark theme.
