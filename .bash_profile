@@ -1,4 +1,10 @@
+export PATH=/Users/beauregard/bin:$PATH
+
 export GOPATH=~/go
+
+export GOBIN=$GOPATH/bin
+
+export PATH=$PATH:$GOBIN
 
 source ~/.bash_profile_secrets
 
